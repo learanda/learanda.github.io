@@ -1,0 +1,36 @@
+.links-style{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.icon-size{
+    width: 20px;
+    height: 20px;
+}
+
+.mt-md{
+    margin-top: 0px;
+}
+
+.contact-margin{
+    margin-top: 0;
+}
+
+@media (min-width: 767px) {
+    .mt-md{
+        margin-top: 130px;
+    }
+}
+
+@media (max-width: 767px) {
+    .contact-margin{
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 768px) {
+    .bloque-contacto{
+        margin-left: 30px;
+    }
+}
